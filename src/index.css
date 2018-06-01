@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: radial-gradient(#ecf0f1 15%, white 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color: black;
+  background-size:16px 16px;
+
+}
+
+.main-header{
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  background-color: white;
+  border-bottom: solid 5px #2980b9;
+}
+.main-header h1{
+  font-size: 16px;
+  padding: 5px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.main-header p{
+  font-size: 10px;
+  padding: 5px;
+  margin: 0;
+}
+
+.overflow-container{
+  overflow: auto;
+}
+
+.gif-body .btn{
+  margin-right:5px;
+}
+
+
+
+.mainHeader{
+  display: grid;
+  grid-template-columns: 200px 1fr 80px;
+}
+
+.mainApp{
+  display: grid;
+}
+
+.appLeft{
+  margin: 20px;
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.appRight{
+}
+
+.mainHeader .column-header {
+}
+
+.mainHeader .sort-icon{
+  
+}
+
+.mainApp .gif-body{
+  
+}
+
+.gif-body .gif-top{
+  display: grid;
+  grid-template-columns: 1fr 80px;
+}
+
+.searchView{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height:100%;
+  width:100%;
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+  background-color: rgba(44, 62, 80, 0.8);
+}
+
+.searchModal{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.search_bar{
+  display: grid;
+  grid-template-columns: 1fr 50px 40px;
+}
+
+.pageContainer{
+  display: grid;
+  grid-template-columns: 30px 150px 30px;
+}
+
+.searchContainer{
+  padding:5px;
+  border-radius: 10px;
+  border: solid 1px black;
+  background-color: white;
+}
+
+.searchHeader .btn {
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.search_bar select {
+  margin-top: 5px;
+}
+
+.gif-card {
+  border: 1px grey solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.detailContainer{
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+}
+
+.detailContainer .gif-container{
+  text-align: center;
+}
+
+.gif-bg{
+  background-color: black;
+}
+
+.detailContainer .rateWrapper {
+  display: grid;
+  grid-template-columns: 20px 20px 20px;
+}
+
+.detailContainer .rateWrapper div{
+  align-self: end;
+  font-size: 16px;
+}
+
+.gif-container img {
+  width: 40vw;
+  height: auto;
+}
+
+.glyphicon-arrow-up:hover {
+  color: #27ae60;
+}
+
+.glyphicon-arrow-down:hover {
+  color: #e74c3c;
+}
+
+.glyphicon-chevron-down:hover {
+  background-color: #ecf0f1;
+}
+.glyphicon-chevron-up:hover {
+  background-color: #ecf0f1;
+}
+
+.pagingContainer:hover {
+  background-color: #ecf0f1;
+}
+
+.glyphicon{
+  cursor: pointer;
+}
+
+@media only screen and (max-width:900px){
+
+.gif-container img {
+  width: 96vw;
+  height: auto;
+}
+}
